@@ -10,10 +10,9 @@ simple_elevator: Function
   * Return difference between arg2 and arg1
 * Behavior: Returns difference between arg2 and arg1
 
-'''js
+```js
 
-
-  function goto(level,button){
+function goto(level,button){
     if(level > 3 || Number(button) > 3) {
     return 0;
     }  else if (level < -3 ||  Number(button) < -3) {
@@ -31,8 +30,7 @@ simple_elevator: Function
     }
   }
 
-
-'''
+```
 
 
 ### Index
