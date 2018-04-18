@@ -1,4 +1,4 @@
-# [Simple Elevator](https://www.codewars.com/kata/<challenge name>)
+# [Simple Elevator](https://www.codewars.com/kata/simple-elevator)
 
 Explain the challenge as completely & clearly as you can.
 
@@ -11,7 +11,24 @@ simple_elevator: Function
 * Behavior: Returns difference between arg2 and arg1
 
 '''js
-// copy of your polished solution for easy reference.
+function goto(level,button){
+  if(level > 3 || Number(button) > 3) {
+  return 0;
+  }  else if (level < -3 ||  Number(button) < -3) {
+  return 0;
+  }  else if (typeof level !== 'number' || typeof button !== 'string') {
+  return 0;
+    } else if (level % 1 !== 0 ||  Number(button) % 1 !== 0 ) {
+  return 0;
+  }  else if (button === undefined ||  button === '') {
+  return 0;
+   }  else if (level === undefined ||  level === '') {
+  return 0;
+  
+  } else {
+    return Math.floor(Number(button)) - Math.floor(level);
+  }
+}
 '''
 
 
@@ -30,11 +47,11 @@ simple_elevator: Function
 
 ## Input Classifications
 
-What characteristics of your inputs are important for your solution?  
+What characteristics of your inputs are important for your solution? 
 
-What groupings will you have to consider when building your solution?  
+1 argument: -3 <= whole number <= 3 
 
-How did you use this information to select your test cases?
+2 argument: string
 
 
 [TOP](#index)
@@ -43,7 +60,7 @@ ___
 
 ## Solution Explanation
 
-Explain your solution in detail, however works for you.  Perhaps by using a specific input to illustrate, by describing your strategy, or by including a diagram [directly from Sketchboard.io](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html).
+Python tutor link - https://goo.gl/7vbFMF
 
 [TOP](#index)
 
@@ -111,16 +128,16 @@ List 5+ use cases for your solution.  They can be stand-alone, part of an applic
 
 ## Learning Journal
 
-Things I learned studying this problem:
+Things I learned studying this problem: Never trust Javascript
 
 
-New vocabulary:
+New vocabulary: WTFJS
 
 
-Things I struggled with:
+Things I struggled with: Making tests
 
 
-Lessons to apply for next time:
+Lessons to apply for next time: Never ever trust Javascript
 
 
 
