@@ -42,18 +42,34 @@ function simple_elevator(floor, button) {
 
 __Predicted Happenings:__
 * __Global Context__
-  * _Variables_
+  * _Primitives_
     a. 
-  * _Objects
+  * _Objects_
     a.
 * __Other Contexts__
-  * _Variables_
+  * _Primitives_
     a. 
   * _Objects
     a.
 
+<<<<<<< HEAD
   I'm just too lazy for this. Please, see [this](https://goo.gl/Ptm3Mr) Python tutor link. Thank you
 
+=======
+__Actual Happenings:__
+* __Global Context__
+  * _Primitives_
+    a. 
+  * _Objects_
+    a.
+* __Other Contexts__
+  * _Primitives_
+    a. 
+  * _Objects_
+    a.
+
+Description of what happened in this step, and how well you predicted it.  This is your space to describe anything that happened but doesn't fall into the bulleted categories.
+>>>>>>> f286cae64346027c0586edbdd32d2f62cd1c5f0d
 
 
 ___
