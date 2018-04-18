@@ -26,7 +26,6 @@ simple_elevator: Function
     return 0;
     }  else if (level === undefined ||  level === '') {
     return 0;
-    
     } else {
       return Math.floor(Number(button)) - Math.floor(level);
     }
