@@ -1,13 +1,14 @@
-# [<challenge name>](https://www.codewars.com/kata/<challenge name>)
+# [Simple Elevator](https://www.codewars.com/kata/<challenge name>)
 
 Explain the challenge as completely & clearly as you can.
 
-_function name_: Function
-* Args: (how many args does this function take?)
-  * (List each arg, it's type, and it's purpose)
-* Return: (what type does this function return?)
-  * (Describe the return value)
-* Behavior: (What does this function do?)
+simple_elevator: Function
+* Args: 2
+  1: Number
+  2: String
+* Return: Number -> -3 <= n <= 3
+  * Return difference between arg2 and arg1
+* Behavior: Returns difference between arg2 and arg1
 
 '''js
 // copy of your polished solution for easy reference.
@@ -50,7 +51,9 @@ Explain your solution in detail, however works for you.  Perhaps by using a spec
 
 ## Constraints
 
-What constraints did you place on yourself, and why?  Did they end up being helpful or not?
+We will solve it twice:
+1. With a pure function
+2. With an object
 
 [TOP](#index)
 
@@ -68,7 +71,7 @@ ___
 
 ## Scaffolding
 
-Provide a link to Gist you used to construct your solution's scaffolding.  What difficulties did you have making it?  How helpful was it in coming up with your finished solution?
+Python tutor link - https://goo.gl/7vbFMF
 
 [TOP](#index)
 
@@ -125,5 +128,5 @@ Lessons to apply for next time:
 
 ___
 ___
-### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
+
 
