@@ -6,7 +6,32 @@
 Explanation of why this is an interesting test case to step through
 
 ```js
-// solution, and a test case case
+function simple_elevator(floor, button) {
+ let returner = 0;
+ let floor_is_valid = false;
+ let button_is_valid = false;
+  
+ let possible_floors = [0, 1, 2, 3];
+ for (let valid_floor of possible_floors) {
+   if (floor === valid_floor) {
+     floor_is_valid = true;
+   }
+ }
+
+ 
+ let possible_buttons = ["0", "1", "2", "3"];
+ for (let valid_button of possible_buttons) {
+   if (button === valid_button) {
+     button_is_valid = true;
+   }
+ }
+
+ if (button_is_valid && floor_is_valid) {
+  	returner = Number(button) - floor;
+ }
+  
+ return returner;
+}
 
 ```
 ---
@@ -27,25 +52,13 @@ __Predicted Happenings:__
   * _Objects
     a.
 
-__Actual Happenings:__
-* __Global Context__
-  * _Variables_
-    a. 
-  * _Objects
-    a.
-* __Other Contexts__
-  * _Variables_
-    a. 
-  * _Objects
-    a.
-
-Description of what happened in this step, and how well you predicted it.
+  I'm just too lazy for this. Please, see [this](https://goo.gl/Ptm3Mr) Python tutor link. Thank you
 
 
 
 ___
 ___
-### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
+
 
 
 
